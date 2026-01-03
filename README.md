@@ -1,2 +1,0 @@
-# AICT FINAL PROJECT
-
