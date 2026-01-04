@@ -16,7 +16,7 @@ Dream Travel Agency is a responsive and user-friendly travel website designed to
 
 🛠️ Technologies Used
 
-**HTML5 – structure of the website
+**HTML5 – structure of the website                 
 
 **CSS – styling and layout
 
@@ -24,11 +24,13 @@ Dream Travel Agency is a responsive and user-friendly travel website designed to
 
 <h2>Here Are some supporting documents list</h2>
 
-[Word File related to website](<../website document.docx>)
+ [Word Document](https://github.com/abdullahrana97/Group6_Dream-Travel-Agency/blob/main/website%20document.docx)
 
-[PowerPoint Realted to website](<../website presentation.pptx>)
+[Excel Document](https://github.com/abdullahrana97/Group6_Dream-Travel-Agency/blob/main/website%20exell.xlsx)
 
-[Excel File related to website](<../website exell.xlsx>)
+[PPT ](https://github.com/abdullahrana97/Group6_Dream-Travel-Agency/blob/main/website%20presentation.pptx)
+
+ 
 
 ## Contributors
 
