@@ -1,78 +1,112 @@
-
-*{
+/* RESET */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-header{
-    background-color: #4b246a;
+
+/* BODY */
+body {
+    background-color: #F8FAFC;
+}
+
+/* HEADER */
+.top-header {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #0a3cff, #00c6ff);
     color: white;
-    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.top-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.top-header p {
+    font-size: 1.2rem;
+}
+
+/* MAIN CONTENT */
+.about-main {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about-main section {
     text-align: center;
 }
-header h1 span{
-    font-size: 14px;
-    letter-spacing: 2px;
-}
-nav{
-    margin-top: 15px;
-}
-nav a{
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 14px;
-}
-nav a.active{
-    border-bottom: 2px solid orange;
-}
-.hero,
-.transport,
-.travel {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-.hero img,
-.transport img,
-.travel img {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    display: block;
-}
-.why,
-.about {
-    padding: 40px 10%;
-}
-.why h2,
-.about h2{
-    text-align: center;
-    margin-bottom: 15px;
-}
-.why p{
-    text-align: center;
-    margin-bottom: 25px;
-    color: #555;
-}
-article{
+
+.about-main h2 {
+    color: #0a3cff;
     margin-bottom: 20px;
+    font-size: 2rem;
 }
-article h3{
+
+.about-main p {
+    font-size: 1.1rem;
     color: #333;
+    line-height: 1.6;
 }
-article p{
-    color: #666;
+
+/* TEAM */
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
 }
-.about p{
+
+.team-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
     text-align: center;
-    color: #555;
+    border: 2px solid #0a3cff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+.team-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     margin-bottom: 15px;
 }
-footer{
-    background-color: #f1f1f1;
+
+/* FOOTER */
+.footer {
     text-align: center;
-    padding: 15px;
-    font-size: 14px;
+    padding: 30px 20px;
+    background: linear-gradient(135deg, #0a3cff, #00c6ff);
+    color: white;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    .top-header h1 {
+        font-size: 2rem;
+    }
+    .team-card {
+        width: 200px;
+    }
+}
+@media(max-width:480px){
+    .top-header h1 {
+        font-size: 1.5rem;
+    }
+    .about-main h2 {
+        font-size: 1.5rem;
+    }
 }
